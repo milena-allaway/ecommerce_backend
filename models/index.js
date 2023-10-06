@@ -8,7 +8,9 @@ const ProductTag = require('./ProductTag');
 //https://sequelize.org/docs/v6/core-concepts/assocs/#ondelete-and-onupdate
 
 // Products belongsTo Category
-Product.belongsTo(Category);
+Product.belongsTo(Category, {
+  foreignKey: 'category_id',
+});
 
 // Categories have many Products
 Category.hasMany(Product);
