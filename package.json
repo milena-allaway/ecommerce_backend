@@ -11,11 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@work.github.com:coding-boot-camp/module-13-challenge-orm.git"
+    "url": "https://github.com/milena-allaway/ecommerce_backend"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Milena Allaway",
+  "license": "MIT",
   "devDependencies": {
     "nodemon": "^2.0.3"
   },
