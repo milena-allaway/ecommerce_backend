@@ -24,3 +24,6 @@ const seedAll = async () => {
 };
 
 seedAll();
+
+// Run the following command in the terminal to seed the database:
+// npm run seed

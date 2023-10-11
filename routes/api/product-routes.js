@@ -114,6 +114,10 @@ router.put('/:id', (req, res) => {
 
 router.delete('/:id', async (req, res) => {
   // delete one product by its `id` value
+  //kept getting forgein key constraint error, so added code to delete tags first
+  //not sure why nothing else worked to fix this, all code seems to be correct
+  //tried putting onDelete: 'CASCADE' in models/index.js and ProductTag.js and setting
+  //constraints to false, but neither worked
   try { //delete product tags first
     await ProductTag.destroy({
       where: {
