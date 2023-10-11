@@ -16,5 +16,6 @@ app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}!`);
 });
 
+module.exports = sequelize;
 // Run the following command in the terminal to start the application:
 // npm start
