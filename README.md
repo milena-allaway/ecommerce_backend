@@ -25,8 +25,8 @@ Run `mysql -u root -p` to open MySQL shell. Run `source db/schema.sql` to create
 Run `npm run seed` to seed the database. Run `npm start` to start the server. Use Insomnia Core to test the API routes.
 
 ## Usage
-After following the installation instructions, use Insomnia Core to test the API routes. The following video demonstrates how to set up the database, seed it, start the server, and test the API routes in Insomnia Core: 
-[Watch walk-through](https://drive.google.com...)
+After following the installation instructions, use Insomnia Core to test the API routes and perform CRUD operations on the data. The following video demonstrates how to set up the database, seed it, start the server, and test the API routes in Insomnia Core: 
+[Watch walk-through](https://drive.google.com/file/d/1mTHEoerDIVk1OySRFeDgthz4icZN09Ji/view)
 
 
 ## Credits
